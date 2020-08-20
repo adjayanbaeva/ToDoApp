@@ -29,5 +29,14 @@ namespace ToDoApp
         {
             File.WriteAllText(filename, editor.Text);
         }
+
+        private void OnDeleteButtonClicked(object sender, EventArgs e)
+        {
+            if(File.Exists(filename))
+            {
+                File.Delete(filename);
+            }
+            editor.Text = string.Empty;
+        }
     }
 }
