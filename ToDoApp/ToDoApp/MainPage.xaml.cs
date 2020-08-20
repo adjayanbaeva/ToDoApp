@@ -27,7 +27,7 @@ namespace ToDoApp
 
         private void OnSaveButtonClicked(object sender, EventArgs e)
         {
-
+            File.WriteAllText(filename, editor.Text);
         }
     }
 }
