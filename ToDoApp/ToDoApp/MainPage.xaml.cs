@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,12 +14,18 @@ namespace ToDoApp
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        string filename = Path.Combine(Environment.GetFolderPath(
+            Environment.SpecialFolder.LocalApplicationData), "notes.txt");
         public MainPage()
         {
             InitializeComponent();
+            if(File.Exists(filename))
+            {
+                editor.Text=File.ReadAllText(filename);
+            }
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void OnSaveButtonClicked(object sender, EventArgs e)
         {
 
         }
