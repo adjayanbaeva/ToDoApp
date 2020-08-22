@@ -11,6 +11,7 @@
         <!-- Place new controls here -->
         
         <Editor x:Name="editor"
+                Text="{Binding Text}"
                 Placeholder="Enter your note"
                 HeightRequest="100"/>
         <Grid>
