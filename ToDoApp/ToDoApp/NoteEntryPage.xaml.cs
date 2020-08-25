@@ -30,6 +30,8 @@ namespace ToDoApp
             {
                 File.WriteAllText(note.Filename, note.Text);
             }
+
+            await Navigation.PopAsync();
         }
     }
 }
