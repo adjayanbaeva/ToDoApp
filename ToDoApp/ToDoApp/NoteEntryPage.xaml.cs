@@ -33,5 +33,18 @@ namespace ToDoApp
 
             await Navigation.PopAsync();
         }
+
+        async void OnDeleteButtonClicked(object sender, EventArgs e)
+        {
+            var note = BindingContext as Note;
+            if (note == null)
+                return;
+            if(File.Exists(note.Filename))
+            {
+                File.Delete(note.Filename);
+            }
+            await Navigation.PopAsync();
+
+        }
     }
 }
