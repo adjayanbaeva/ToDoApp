@@ -33,6 +33,7 @@ namespace ToDoApp
                     Date=File.GetCreationTime(filename)
                 });
             }
+            listView.ItemsSource = notes.OrderBy(n => n.Date).ToList();
         }
 
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

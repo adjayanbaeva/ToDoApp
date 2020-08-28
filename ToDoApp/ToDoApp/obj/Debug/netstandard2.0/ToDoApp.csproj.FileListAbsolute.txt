@@ -12,3 +12,5 @@ C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\De
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.dll
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ref\ToDoApp.dll
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.pdb
+C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\NoteEntryPage.xaml.g.cs
+C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\NotesPage.xaml.g.cs
