@@ -36,9 +36,12 @@ namespace ToDoApp
             listView.ItemsSource = notes.OrderBy(n => n.Date).ToList();
         }
 
-        private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        async void OnNoteAddedClicked(object sender, SelectedItemChangedEventArgs e)
         {
-
+            await Navigation.PushAsync(new NoteEntryPage
+            {
+                BindingContext = new Note()
+            }) ;
         }
     }
 }
