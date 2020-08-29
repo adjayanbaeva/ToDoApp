@@ -43,5 +43,17 @@ namespace ToDoApp
                 BindingContext = new Note()
             }) ;
         }
+
+        private async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if(e.SelectedItem != null)
+            {
+                await Navigation.PushAsync(new NoteEntryPage
+                    {
+                    BindingContext = e.SelectedItem as Note
+                });
+            }
+        }
+
     }
 }
