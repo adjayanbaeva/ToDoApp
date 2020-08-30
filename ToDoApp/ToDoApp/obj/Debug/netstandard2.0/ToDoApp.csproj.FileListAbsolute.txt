@@ -4,7 +4,6 @@ C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\bin\De
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ToDoApp.pdb
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.csprojAssemblyReference.cache
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.AssemblyInfoInputs.cache
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.AssemblyInfo.cs
 C:\Users\Ainur Dzhaianbaeva\Documents\Kal Academy\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.csproj.CoreCompileInputs.cache
