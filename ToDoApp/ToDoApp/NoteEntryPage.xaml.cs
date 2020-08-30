@@ -23,7 +23,7 @@ namespace ToDoApp
             var note = (Note)BindingContext;
             if(string.IsNullOrWhiteSpace(note.Filename))
             {
-               var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName().notes.txt}");
+               var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
                 File.WriteAllText(filename, note.Text);
             }
             else

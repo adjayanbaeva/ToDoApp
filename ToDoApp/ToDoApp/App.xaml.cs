@@ -14,7 +14,7 @@ namespace ToDoApp
             FolderPath= Environment.GetFolderPath(
             Environment.SpecialFolder.LocalApplicationData);
 
-            MainPage = new NavigationPage(new NotesPage();
+            MainPage = new NavigationPage(new NotesPage());
         }
 
         protected override void OnStart()
